@@ -5,7 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DieRoller
-{
+{   
+
+    /// <summary>
+    /// Represents a single six sided die (1-6)
+    /// </summary>
     internal class Die
     {
     }
