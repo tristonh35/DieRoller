@@ -13,7 +13,7 @@ namespace DieRoller
     public class Die
     {
 
-        private static Random _random;
+        private static readonly Random _random;
 
         static Die()
         {
