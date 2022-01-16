@@ -23,7 +23,7 @@ namespace DieRoller
         public bool isHeld { get; set; }
 
         /// <summary>
-        /// Rolls the die and sets the face value to the new number
+        /// Rolls the die and sets the face value to the new number <see cref="FaceValue"/>
         /// </summary>
         public void Roll()
         {
