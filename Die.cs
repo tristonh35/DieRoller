@@ -16,6 +16,11 @@ namespace DieRoller
         /// The current face up value of the die
         /// </summary>
         public byte FaceValue { get; set; }
+
+        /// <summary>
+        /// True if the die is currently held
+        /// </summary>
+        public bool isHeld { get; set; }
         
         // Is the die held? 
 
