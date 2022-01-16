@@ -21,9 +21,13 @@ namespace DieRoller
         /// True if the die is currently held
         /// </summary>
         public bool isHeld { get; set; }
-        
-        // Is the die held? 
 
-        // Roll (set a new random face up value) 
+        /// <summary>
+        /// Rolls the die and sets the face value to the new number
+        /// </summary>
+        public void Roll()
+        {
+            // Generate random number and set to face value
+        }
     }
 }
