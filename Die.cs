@@ -10,7 +10,11 @@ namespace DieRoller
     /// <summary>
     /// Represents a single six sided die (1-6)
     /// </summary>
-    internal class Die
+    public class Die
     {
+        // Face up value (what was rolled by the user?) 
+        // Is the die held? 
+
+        // Roll (set a new random face up value) 
     }
 }
