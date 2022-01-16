@@ -23,11 +23,14 @@ namespace DieRoller
         public bool isHeld { get; set; }
 
         /// <summary>
-        /// Rolls the die and sets the face value to the new number <see cref="FaceValue"/>
+        /// Rolls the die and sets the face value to the new number
+        /// <see cref="FaceValue"/>
         /// </summary>
-        public void Roll()
+        /// <returns>Returns the new random number</returns>
+        public byte Roll()
         {
             // Generate random number and set to face value
+            // returns a new number
         }
     }
 }
